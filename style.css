@@ -142,6 +142,20 @@ image {
     flex-direction: row;
 }
 
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    color: #e5e7eb;
+}
+
+a {
+    /* make the links in a single line */
+    text-decoration: none;
+}
+
 .title {
     font-size: 24px;
     font-weight: 600;
